@@ -23,7 +23,7 @@ function App() {
                 <li className="hover:text-[#39FF14] active:text-[#39FF14]">About Us</li>
               </ul>
             </div>
-            <button className="border-2 border-[#39FF14] text-[#39FF14] flex items-center gap-x-1 px-5 py-2 rounded-md">dApp <img src={arrow} alt="" /></button>
+            <button className="border-2 border-[#39FF14] text-[#39FF14] flex items-center gap-x-3 px-5 py-2 rounded-md">dApp <img src={arrow} alt="" /></button>
           </div>
         </nav>
         <img src={star} alt="" className="absolute top-[155px] left-[340px] -z-10" />
@@ -34,7 +34,7 @@ function App() {
         <img src={patternOne} alt="" className="absolute top-[824px] left-20 mx-auto -z-[1]" />
         <img src={star} alt="" className="absolute top-[558px] left-[340px] -z-10" />
         <img src={line} alt="" className="absolute top-[525px] left-[351px] -z-10" />
-        <img src={rock} alt="" className="absolute top-[386px] left-[1320px] -z-10" />
+        <img src={rock} alt="" className="absolute top-[386px] left-[320px] lg:left-[1320px] -z-10" />
         <img src={dot} alt="" className="absolute top-[744px] left-[46px] -z-10" />
 
         <div>
@@ -43,8 +43,9 @@ function App() {
           </div>
           <h1 className="font-bold text-6xl mx-auto w-1/2 text-center mt-10">Empower Your <br/> <span className="text-[#39FF14]">Decentralized</span> Future</h1>
           <p className="text-[#828282] w-[45%] mx-auto text-center mt-4">Discover secure and transparent blockchain solutions. Take control of your digital assets with our cutting-edge dApps.</p>
+          <button className="border-2 border-[#39FF14] text-[#39FF14] flex items-center gap-x-3 px-5 py-2 rounded-md mt-4 mx-auto">Create a free account</button>
         </div>
-        <img src={hero} alt="" className="absolute bottom-0 2xl:-bottom-40 left-56" />
+        <img src={hero} alt="" className="absolute -bottom-60 2xl:-bottom-[30rem] left-1/2 transform -translate-x-1/2 w-4/5 lg:w-full" />
         {/* <style>
           {`
             .btn-gradient-2 {
